@@ -1,0 +1,17 @@
+1.Que numero es mayor a 8
+>A:9
+B:6
+
+2.Localidad en que se encuentra tu Universidad
+>A.Atarasquillo
+B.San Pedro
+
+3.Cual es el nombre de tu maestro de Programacion
+A.Jesus
+>B.Raul
+
+4.La suma de 41834+7843 es
+>A.49677
+B.45382
+
+5.
