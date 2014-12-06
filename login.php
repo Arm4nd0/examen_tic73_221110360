@@ -34,7 +34,7 @@ if(isset($_POST['submit'])){
         </label>
     </p>
   </form>
-<br><div><center><font size='13' color='red'><?php $msg=$_GET['msg']; echo"$msg";?></font></center></div>
+<!--<br><div><center><font size='13' color='red'><?php $msg=$_GET['msg']; echo"$msg";?></font></center></div>-->
 </center>
 </body>
 </html>
