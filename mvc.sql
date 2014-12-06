@@ -80,9 +80,9 @@ UNLOCK TABLES;
 DROP TABLE IF EXISTS `usuarios`;
 
 CREATE TABLE `usuarios` (
-  `matricula` char(8) NOT NULL DEFAULT '',
-  `password` varchar(15) DEFAULT NULL,
+  `matricula` int(9) NOT NULL,
   `nombre` varchar(25) DEFAULT NULL,
+  `password` varchar(20) DEFAULT NULL,
   `calif` smallint(6) DEFAULT NULL,
   `presento` tinyint(1) DEFAULT NULL,
   `estatus` varchar(2) DEFAULT NULL,
@@ -93,7 +93,7 @@ CREATE TABLE `usuarios` (
 
 LOCK TABLES `usuarios` WRITE;
 
-insert  into `usuarios`(`matricula`,`password`,`nombre`,`calif`,`presento`,`estatus`) values ('22111016','utvt','jhovanny',8,1,'1'),('22121112','utvt','carlos',0,1,'1');
+insert  into `usuarios`(`matricula`,`nombre`,`password`,`calif`,`presento`,`estatus`) values (221110360,'Armando','12345',8,1,'1');
 
 UNLOCK TABLES;
 
